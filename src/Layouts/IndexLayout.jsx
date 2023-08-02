@@ -6,13 +6,14 @@ import Hero from '../Components/Hero/Hero'
 import ButonScroll from '../Components/ButonScroll/ButonScroll'
 import Main from '../Components/Main/Main'
 import Testimonios from '../Components/Testimonios/Testimonios'
-
+import ImageText from '../Components/ImageText/ImageText'
 export default function IndexLayout() {
     return (
         <div>
             <Header />
             <Hero />
             <Main />
+            <ImageText />
             <Testimonios />
 
             <Footer />

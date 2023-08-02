@@ -1,0 +1,63 @@
+.ImageTextContain{
+ display: none;
+
+}
+
+.ImageText-Text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.ImageText-Text h2{
+    font-size: 35px;
+    color: var(--text-color);
+}
+.ImageText-Text h5{
+    font-size: 13px;
+    color: var(--text-color2);
+}
+
+.ImageText-Text p{
+    font-size: 14px;
+    color: var(--text-color2);
+}
+.img2 img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.deFlex{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: var(--text-color2);
+    
+}
+
+
+.ImageText-Text  button{
+    width: 10rem;
+    padding: 14px;
+    background-color: var(--color1);
+    border: none;
+    color: var(--blanco);
+    box-shadow: 0 3px 40px #1a1e251d;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.scrolledTextContain{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 1em;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 2rem;
+    padding: 0px 13%;
+    padding-top: 10vh;
+    place-content: center;
+    align-items: center;
+}
