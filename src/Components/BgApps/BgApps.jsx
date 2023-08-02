@@ -8,7 +8,7 @@ export default function BgApps() {
     // Cambio de color en navbar al hacer scroll
     const handleScroll = () => {
         const offset = window.scrollY;
-        if (offset > 3300) {
+        if (offset > 3000) {
             setScrolled(true);
         } else {
             setScrolled(false);
