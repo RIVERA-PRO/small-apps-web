@@ -18,20 +18,6 @@
 
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-  color: var(--blanco)!important; ; /* Cambia el color a blanco */
-}
-/* Estilos para la paginación */
-.swiper-pagination-bullet {
-    background-color: var(--blanco)!important; /* Cambia el color del fondo a blanco */
-    opacity: 0.5; /* Cambia la opacidad de los puntos de la paginación */
-  }
-  
-  .swiper-pagination-bullet-active {
-    background-color: var(--blanco)!important; /* Cambia el color del punto activo a blanco */
-    opacity: 1; /* Cambia la opacidad del punto activo */
-  }
 #swiper_container2 {
     height: 60vh;
     width: 70%;
@@ -45,14 +31,14 @@
    
   }
   #swiper_container2 img{
-     width: 8rem;
-     height: 8rem;
+     width: 2rem;
+     height: 2rem;
      object-fit: cover;
      border-radius:100%;
      transition: all 0.25s;
 }
 #SwiperSlide2{
-    width: 67rem !important;
+    width: 33rem !important;
     display: flex!important;
     align-items: center!important;
     justify-content: center!important;
@@ -72,12 +58,12 @@
  
   }
   #SwiperSlide2{
-    width: 24rem !important;
+    width: 22rem !important;
   }
 
   #swiper_container2 img{
-    width: 6rem;
-    height: 6rem;
+    width: 2rem;
+    height: 2rem;
 }
 
 
@@ -97,7 +83,10 @@
     align-self: center;
     align-content: center;
     gap: 2rem;
-   padding: 0px 20%;
+   padding: 50px 20%;
    text-align: center;
-   color: var(--blanco);
+   color: var(--text-color2);
+   background-color: var(--blanco);
+   box-shadow: 0 3px 40px #1a1e251d;
+   border-radius: 7px;
   }

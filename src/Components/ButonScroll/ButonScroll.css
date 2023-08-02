@@ -16,6 +16,7 @@
     opacity: 0; /* Establecer la opacidad inicial en 0 */
     visibility: hidden; /* Ocultar el botón inicialmente */
     animation: fadeIn 0.3s ease-in-out forwards; /* Animación de aparición con duración de 0.3 segundos */
+    z-index: 100;
   }
   
   @keyframes fadeIn {

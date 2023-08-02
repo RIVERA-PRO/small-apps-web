@@ -5,7 +5,7 @@
   text-decoration: none;
 }
 :root{
-  --text-color: #000;
+  --text-color: #000000a2;
   --text-color2:#808080;
   --bg-color: #FAFAFA;
   --bg2-color: #0b0b0b;
@@ -16,8 +16,14 @@
 }
 
 body{
-  background-color: var(--bg-color);
+  background-color: var(--blanco);
 }
+
+h4,h2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 @keyframes slideFromLeft {
   from {
       opacity: 0;
@@ -43,15 +49,15 @@ body{
 
 
 
-.shape,.HeroContentText{
+.shape,.HeroContentText,.ImageTextContain,.BgContainText,.scrolledBGAPPS h2,P, a{
   opacity: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;
 }
-.card-scroll, nav{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
+.card-scroll, nav,.scrolledBG{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
 }
 
-.img,.scrolledFooter{ opacity: 0; animation: slideUp 1s ease-in-out forwards; -webkit-animation: slideUp 0.55s ease-in-out forwards;
+.img,.scrolledFooter,.scrolled3,.MainContain,.scrolledInterfaz{ opacity: 0; animation: slideUp 1s ease-in-out forwards; -webkit-animation: slideUp 0.55s ease-in-out forwards;
 }
 
 

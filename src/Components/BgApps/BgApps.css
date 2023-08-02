@@ -1,0 +1,62 @@
+.BgAppsContain{
+   display: none;
+}
+
+.BgAppsContain h2{
+    font-size: 35px;
+}
+.BgAppsContain p{
+    font-size: 14px;
+    width: 40%;
+}
+
+.apps{
+   display: flex;
+   gap: 5rem;
+   
+}
+.apps a{
+   color: var(--blanco);
+   border: 1px solid var(--blanco);
+   padding: 10px 30px;
+   border-radius: 30rem;
+   -webkit-border-radius: 30rem;
+   -moz-border-radius: 30rem;
+   -ms-border-radius: 30rem;
+   -o-border-radius: 30rem;
+}
+
+.apps a:hover{
+    background-color: var(--blanco);
+    color: var(--color1);
+}
+.scrolledBGAPPS{
+
+background-image: linear-gradient(45deg, #009EC5 0%, #2e7eed 20%, #02225B 80%);
+height: 60vh;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+gap: 2rem;
+color: var(--blanco);
+padding: 100px 0 170px;
+position: relative;
+overflow: hidden;
+}
+@media (max-width: 1024px){
+    .BgAppsContain p{
+        font-size: 14px;
+        width: 80%;
+    }
+    .BgAppsContain{
+      
+        height: 100%;
+      
+    }
+    .apps{
+       flex-direction: column;
+        
+     }
+}
