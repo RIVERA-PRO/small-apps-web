@@ -8,6 +8,7 @@ import Main from '../Components/Main/Main'
 import Testimonios from '../Components/Testimonios/Testimonios'
 import ImageText from '../Components/ImageText/ImageText'
 import ImageText2 from '../Components/ImageText2/ImageText2'
+import InterfazContain from '../Components/InterfazContent/InterfazContain'
 export default function IndexLayout() {
     return (
         <div>
@@ -16,6 +17,7 @@ export default function IndexLayout() {
             <Main />
             <ImageText />
             <ImageText2 />
+            <InterfazContain />
             <Testimonios />
 
             <Footer />

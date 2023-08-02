@@ -1,0 +1,75 @@
+.InterfazTitle{
+    text-align: center;
+}
+
+.InterfazTitle h2{
+    font-size: 35px;
+    color: var(--text-color);
+}
+.InterfazTitle p{
+    font-size: 14px;
+    color: var(--text-color2);
+}
+
+.InterfazContent{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    border-radius: 1em;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    gap: 2rem;
+    padding: 0px 13%;
+    padding-top: 10vh;
+    place-content: center;
+    align-items: center;
+}
+.InterfazText{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    border-radius: 1em;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 2rem;
+    padding: 20px 5%;
+    place-content: center;
+    align-items: center;
+    background-color: var(--blanco);
+    box-shadow: 0 3px 40px #1a1e251d;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.textInterfaz p{
+    font-size: 13px;
+    color: var(--text-color2);
+}
+.textInterfaz h4{
+   
+    color: var(--text-color);
+}
+
+.textInterfaz{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    transition: all 0.4s linear;
+}
+
+.textInterfaz:hover{
+    transition: all 0.4s linear;
+    background-color: #009ec51d ;
+}
+
+.InterfazContain{
+    display: none;
+}
+.scrolledInterfaz{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
