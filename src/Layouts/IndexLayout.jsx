@@ -4,7 +4,7 @@ import Footer from '../Components/Footer/Footer'
 import Developer from '../Components/Developer/Developer'
 import Hero from '../Components/Hero/Hero'
 import ButonScroll from '../Components/ButonScroll/ButonScroll'
-
+import Main from '../Components/Main/Main'
 import Testimonios from '../Components/Testimonios/Testimonios'
 
 export default function IndexLayout() {
@@ -12,7 +12,7 @@ export default function IndexLayout() {
         <div>
             <Header />
             <Hero />
-
+            <Main />
             <Testimonios />
 
             <Footer />

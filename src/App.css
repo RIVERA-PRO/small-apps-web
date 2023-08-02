@@ -18,6 +18,12 @@
 body{
   background-color: var(--bg-color);
 }
+
+h4,h2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
 @keyframes slideFromLeft {
   from {
       opacity: 0;
@@ -51,7 +57,7 @@ body{
 .card-scroll, nav{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
 }
 
-.img,.scrolledFooter,.scrolled3{ opacity: 0; animation: slideUp 1s ease-in-out forwards; -webkit-animation: slideUp 0.55s ease-in-out forwards;
+.img,.scrolledFooter,.scrolled3,.MainContain{ opacity: 0; animation: slideUp 1s ease-in-out forwards; -webkit-animation: slideUp 0.55s ease-in-out forwards;
 }
 
 
