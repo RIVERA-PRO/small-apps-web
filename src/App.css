@@ -51,7 +51,7 @@ body{
 .card-scroll, nav{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
 }
 
-.img,.scrolledFooter{ opacity: 0; animation: slideUp 1s ease-in-out forwards; -webkit-animation: slideUp 0.55s ease-in-out forwards;
+.img,.scrolledFooter,.scrolled3{ opacity: 0; animation: slideUp 1s ease-in-out forwards; -webkit-animation: slideUp 0.55s ease-in-out forwards;
 }
 
 

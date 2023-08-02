@@ -13,7 +13,7 @@ export default function Testimonios() {
     // Cambio de color en navbar al hacer scroll
     const handleScroll = () => {
         const offset = window.scrollY;
-        if (offset > 2300) {
+        if (offset > 300) {
             setScrolled(true);
         } else {
             setScrolled(false);
@@ -34,17 +34,7 @@ export default function Testimonios() {
         }
     }, []);
 
-    const handleNext = () => {
-        if (swiperRef.current && swiperRef.current.swiper) {
-            swiperRef.current.swiper.slideNext();
-        }
-    };
 
-    const handlePrev = () => {
-        if (swiperRef.current && swiperRef.current.swiper) {
-            swiperRef.current.swiper.slidePrev();
-        }
-    };
 
     return (
         <div className='TestimoniosConatin'>
@@ -71,36 +61,37 @@ export default function Testimonios() {
                 <SwiperSlide id='SwiperSlide2'>
                     <div className={scrolled ? "card-scroll2 scrolled3" : "card-scroll2"}>
                         <img src={img1} alt='img' />
+                        <span>Abraham Linkon, Themefisher.com</span>
                         <p>
                             "Lejos, muy lejos, detrás de las montañas de la palabra, lejos de los países Vokalia y Consonantia, viven los textos ciegos.".
                         </p>
+
                     </div>
                 </SwiperSlide>
 
                 <SwiperSlide id='SwiperSlide2'>
                     <div className={scrolled ? "card-scroll2 scrolled3" : "card-scroll2"}>
                         <img src={img1} alt='img' />
+                        <span>Abraham Linkon, Themefisher.com</span>
                         <p>
                             "Lejos, muy lejos, detrás de las montañas de la palabra, lejos de los países Vokalia y Consonantia, viven los textos ciegos.".
                         </p>
+
                     </div>
                 </SwiperSlide>
 
                 <SwiperSlide id='SwiperSlide2'>
                     <div className={scrolled ? "card-scroll2 scrolled3" : "card-scroll2"}>
                         <img src={img1} alt='img' />
+                        <span>Abraham Linkon, Themefisher.com</span>
                         <p>
                             "Lejos, muy lejos, detrás de las montañas de la palabra, lejos de los países Vokalia y Consonantia, viven los textos ciegos.".
                         </p>
+
                     </div>
                 </SwiperSlide>
 
-                <div className='swiper-button-prev' onClick={handlePrev}>
 
-                </div>
-                <div className='swiper-button-next' onClick={handleNext}>
-
-                </div>
             </Swiper>
         </div>
     )
