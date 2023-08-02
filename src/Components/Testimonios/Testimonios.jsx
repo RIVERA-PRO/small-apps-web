@@ -13,7 +13,7 @@ export default function Testimonios() {
     // Cambio de color en navbar al hacer scroll
     const handleScroll = () => {
         const offset = window.scrollY;
-        if (offset > 300) {
+        if (offset > 2900) {
             setScrolled(true);
         } else {
             setScrolled(false);

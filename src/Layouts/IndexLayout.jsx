@@ -9,6 +9,8 @@ import Testimonios from '../Components/Testimonios/Testimonios'
 import ImageText from '../Components/ImageText/ImageText'
 import ImageText2 from '../Components/ImageText2/ImageText2'
 import InterfazContain from '../Components/InterfazContent/InterfazContain'
+import BgContain from '../Components/BgContain/BgContain'
+import BgApps from '../Components/BgApps/BgApps'
 export default function IndexLayout() {
     return (
         <div>
@@ -18,8 +20,10 @@ export default function IndexLayout() {
             <ImageText />
             <ImageText2 />
             <InterfazContain />
-            <Testimonios />
+            <BgContain />
 
+            <Testimonios />
+            <BgApps />
             <Footer />
             <Developer />
             <ButonScroll />

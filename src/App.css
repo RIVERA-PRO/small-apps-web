@@ -49,12 +49,12 @@ h4,h2{
 
 
 
-.shape,.HeroContentText,.ImageTextContain{
+.shape,.HeroContentText,.ImageTextContain,.BgContainText,.scrolledBGAPPS h2,P, a{
   opacity: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;
 }
-.card-scroll, nav{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
+.card-scroll, nav,.scrolledBG{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
 }
 
 .img,.scrolledFooter,.scrolled3,.MainContain,.scrolledInterfaz{ opacity: 0; animation: slideUp 1s ease-in-out forwards; -webkit-animation: slideUp 0.55s ease-in-out forwards;
